@@ -1,3 +1,4 @@
+WARNING: linker: Warning: unable to normalize "null" (ignoring)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +128,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Text backup files 
+*.bak
+
+# Database 
+*.sqlite3
